@@ -7,6 +7,17 @@
 * List of all comments to rewiew
 * List of all users
 
+## Create and feel the .env file
+```
+DB_ENGINE=<...> # specify that we work with postgresql data base
+DB_NAME=<...> # data base name
+POSTGRES_USER=<...> # login for connecting to data base
+POSTGRES_PASSWORD=<...> # password for connection to data base (create your own)
+DB_HOST=<...> # name of the servise (container)
+DB_PORT=<...> # port for conection to data base
+SECRET_KEY=<...> # kay from settings.py
+```
+
 1.Assembly and run the container
 ```
 docker-compose up -d --build
